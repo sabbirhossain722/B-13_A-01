@@ -112,3 +112,53 @@ body{
 #banner .content .row2  .second img{
     margin-right: 10px;
 }
+#card .container{
+    padding: 0 120px;
+}
+#card h2{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #001931;
+}
+#card p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #627382;
+}
+#card .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#card .card img{
+    display: inline-block;
+    background: #F95555;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+#card .card{
+    text-align: center;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.141);
+    margin-top: 44px;
+    padding: 30px ;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#card .card:hover{
+    border: 2px solid #469165;
+}
+#card .card h4{
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+}
+#card .card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+
+}
