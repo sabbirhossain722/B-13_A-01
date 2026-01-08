@@ -114,6 +114,7 @@ body{
 }
 #card .container{
     padding: 0 120px;
+    margin-bottom: 100px;
 }
 #card h2{
     font-weight: 700;
@@ -160,5 +161,46 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #627382;
-
+}
+#solution{
+    margin: 120px;
+}
+#solution .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#solution .row .content{
+    padding: 120px;
+}
+#solution .row .image img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+#solution .row .content .one{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+#solution .row .content .two{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin: 0;
+}
+#solution .row .content .three{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+#solution .row .content .checklist{
+    margin-top: 40px;
+}
+#solution .row .content .checklist .row{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-bottom: 16px;
 }
