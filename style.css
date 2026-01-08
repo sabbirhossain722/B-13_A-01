@@ -150,6 +150,7 @@ body{
     text-align: center;
     padding: 8px;
     border-radius: 50%;
+    margin-top: 70px;
 }
 #card .card{
     text-align: center;
@@ -159,6 +160,9 @@ body{
     padding: 30px ;
     cursor: pointer;
     margin-right: 10px;
+    width: 322px;
+    height: 300px;
+    border-radius: 8px;
 }
 #card .card:hover{
     border: 2px solid #469165;
