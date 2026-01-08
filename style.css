@@ -250,3 +250,39 @@ body{
     align-items: center;
     justify-content: center;
 }
+#footer{
+    background: #001931;
+    padding: 120px 120px 30px 120px ;
+}
+#footer .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .container .row .social_link p{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+#footer .container .row .social_link ul{
+    padding: 0;
+}
+#footer .container .row .social_link ul li {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer .container .row .social_link ul li a{
+    margin-right: 16px;
+
+}
+#footer .container p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FAFAFA;
+    margin: 30px;
+}
