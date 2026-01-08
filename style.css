@@ -37,3 +37,78 @@ body{
 #head .row .button a:hover{
     background-color: #2c573c;
 }
+#banner{
+    text-align: center;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 674px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner .content{
+    padding: 70px 120px;
+}
+#banner .content .row1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner .content .row1 img{
+    margin-right: 6px;
+}
+#banner .content .row1 a{
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #469165;
+    background: #fff;
+    border-radius: 1000px;
+}
+#banner .content .thinking p{
+    font-weight: 700;
+}
+#banner .content .thinking p .first{
+    color: #fff;
+    font-size: 72px;
+}
+#banner .content .thinking p .second{
+    font-size: 72px;
+    color: #30B868;
+}
+#banner .content p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 16px;
+}
+#banner .content .row2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+#banner .content .row2 a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+#banner .content .row2  .first{
+    background: #469165;
+}
+#banner .content .row2 .first img{
+    margin-left: 10px;
+}
+#banner .content .row2  .second{
+    border: 1px solid #fff;
+}
+#banner .content .row2  .second img{
+    margin-right: 10px;
+}
